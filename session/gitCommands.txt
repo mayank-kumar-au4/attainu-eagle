@@ -37,4 +37,14 @@
 
 19. git checkout .: It will also work for the tracked files. It will also remove all the modified content & it will show you the previous content.
 
-20. git clean -n : Will be used to clean the newly created files before commit. It works on untracked files.
+20. git clean -n : Will be used to clean the newly created files before commit. It works on untracked files. (-n) will let you know before removing file.
+
+21. git clean -f : It will directly delete the files but not the folders. It works on untracked files.
+
+22. git clean -df : It will delete the entire folder. It works on untracked files.
+
+23. git stash : Will save the changes temporarily so that we can pop it later on and commit the changes.
+
+24. git stash pop : Will show the changes which were stored temporarily and now we can change it and then commit.
+
+25. git commit --amend -m "New Message" : It will change the commit message of the most recent commit.
