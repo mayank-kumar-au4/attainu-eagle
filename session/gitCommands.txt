@@ -1,0 +1,40 @@
+-----------------GIT COMMAN COMMANDS & THEIR MEANINGS------------------------
+1. git config --global user.name: To set the name of the contributor globally and it will be used in any project.
+
+2. got config --local user.name: To set the contributor name locally for one project.
+
+3. git config credentials.usernmae <github-username> : To change the username for the particular Github account in case of multiple account used on system.
+
+4. git add <fileName> : It will track the file and send it to the staging section.
+
+5. git add . : It will add all the files and send it to staging section.
+
+6. git status : It will show all the tracked(GREEN) & untracked(RED) files and folders.
+
+7. git commit -m "Commit Message" : It will save the entire thing to the staging section and the code is saved locally.
+
+8. git push origin master : It will push the code to the Github.com Repository.
+
+9. git reset fileName : will reset everything after you are done with git add.
+
+10. git log : Will give the information of all the commits.
+
+11. git log <fileName> : It will give the information of the commit for the given file.
+
+12. git remote add origin URL : Will add the remote link to the Github.com Repository.
+
+13. git branch : will list down all the available branches.
+
+14. git checkout branchName : will move the head from master to the respective branch name. And commits will be pushed there.
+
+15. git checkout -b branchName: It will create the branchName as well as move the head to the respective branchName as well.
+
+16. git diff: to see the previous content before the recent commit.
+
+17. git diff <fileName>: Will provide the previous changed value which is now modified.
+
+18. git checkout <fileName> : It will work for the tracked files. It will remove the modified content & it will show you the previous commited data.
+
+19. git checkout .: It will also work for the tracked files. It will also remove all the modified content & it will show you the previous content.
+
+20. git clean -n : Will be used to clean the newly created files before commit. It works on untracked files.
